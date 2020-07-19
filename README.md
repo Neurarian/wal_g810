@@ -22,6 +22,8 @@ pip install .
 
 * [pywal](https://github.com/dylanaraps/pywal)
 
+* [g810-led](https://github.com/MatMoul/g810-led)
+
 ## Usage
 
 **Be sure you've run `wal` at least once to generate colors.json file.**

@@ -21,6 +21,7 @@ setuptools.setup(
     author_email="mailformmk@gmail.com",
     description=" Automate g810 profile creation from generated pywal colors",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     license="MIT",
     url="https://github.com/MKJM2/wal_g810",
     download_url=DOWNLOAD,
