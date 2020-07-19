@@ -22,8 +22,9 @@ pip install .
 
 * [pywal](https://github.com/dylanaraps/pywal)
 
-## Use
+## Usage
 
 **Be sure you've run `wal` at least once to generate colors.json file.**
 
 Simply invoke `wal-g810`
+The generated profile can then be applied by invoking `g810-led -p $HOME/.cache/wal/colors-wal-g810`
