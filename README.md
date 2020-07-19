@@ -6,7 +6,7 @@ Automate [g810-led](https://github.com/MatMoul/g810-led) theme creation from gen
 
 `wal_g810` is a small Python utility meant to work with `wal` by reading colors generated from a JSON file and translating them into a `g810-led` compliant profile file.
 
-## Install
+## Installation
 
 ```bash
 git clone `https://github.com/MKJM2/wal_g810.git`
@@ -18,7 +18,7 @@ pip install .
 
 * [python3](https://www.python.org/)
 
-    Tested with Python 3.6.4. Uses standard sys calls so should function across all Python 3.
+    Tested with Python 3.8.3. Uses standard sys calls so should function across all Python 3.
 
 * [pywal](https://github.com/dylanaraps/pywal)
 
