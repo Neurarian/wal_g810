@@ -8,10 +8,10 @@ Automate [g810-led](https://github.com/MatMoul/g810-led) theme creation from gen
 
 ## Installation
 
+Install and update using [pip](https://pip.pypa.io/en/stable/quickstart/):  
+
 ```bash
-git clone `https://github.com/MKJM2/wal_g810.git`
-cd wal_g810
-pip install .
+pip install wal-g810
 ```
 
 ### Requirements
