@@ -9,8 +9,8 @@ Automate [g810-led](https://github.com/MatMoul/g810-led) theme creation from gen
 ## Install
 
 ```bash
-git clone `https://github.com/elock37/wal_vtop.git`
-cd wal_vtop
+git clone `https://github.com/MKJM2/wal_g810.git`
+cd wal_g810
 pip install .
 ```
 
@@ -26,4 +26,4 @@ pip install .
 
 **Be sure you've run `wal` at least once to generate colors.json file.**
 
-Simply invoke `wal-vtop`
+Simply invoke `wal-g810`
