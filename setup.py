@@ -7,6 +7,9 @@ except (ImportError):
     print("error: wal_g810 requires Python 3.5 or greater.")
     quit(1)
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 VERSION = wal_g810.VERSION
 DOWNLOAD = "https://github.com/MKJM2/wal_g810/archive/%s.tar.gz" % VERSION
 
@@ -17,6 +20,7 @@ setuptools.setup(
     author="Michał Kurek",
     author_email="mailformmk@gmail.com",
     description=" Automate g810 profile creation from generated pywal colors",
+    long_description=long_description,
     license="MIT",
     url="https://github.com/MKJM2/wal_g810",
     download_url=DOWNLOAD,
