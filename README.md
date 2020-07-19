@@ -1,4 +1,6 @@
 # wal_g810
+![PyPI](https://img.shields.io/pypi/v/wal-g810)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](http://opensource.org/licenses/MIT)
 
 Automate [g810-led](https://github.com/MatMoul/g810-led) theme creation from generated [pywal](https://github.com/dylanaraps/pywal) colors
 
@@ -18,7 +20,7 @@ pip install wal-g810
 
 * [python3](https://www.python.org/)
 
-    Tested with Python 3.8.3. Uses standard sys calls so should function across all Python 3.
+    Tested with Python 3.8.3.
 
 * [pywal](https://github.com/dylanaraps/pywal)
 
@@ -26,7 +28,8 @@ pip install wal-g810
 
 ## Usage
 
-**Be sure you've run `wal` at least once to generate colors.json file.**
+**Be sure you've run `wal` at least once to generate the colors.json file.**
 
 Simply invoke `wal-g810`  
+
 The generated profile can then be applied by invoking `g810-led -p $HOME/.cache/wal/colors-wal-g810`
