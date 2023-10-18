@@ -41,11 +41,10 @@ def themeG810(wal_colors_path, g810_theme_path):
 
         # Transfer wal colors to g810 profile scheme
         #generic json file
-        
         colors_dict = import_colors["colors"]
-        #colors_dict = [(key, value.replace("#","")) for key, value in colors_dict.items()]
         for key, value in colors_dict.items():
             colors_dict[key] = value.replace("#","")
+                
         wal_g810 = "# A wal_g810 profile\n"
         wal_g810 += "a" + " " + colors_dict["color11"] + "\n"
         wal_g810 += "c"
