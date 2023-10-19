@@ -46,9 +46,23 @@ def themeG810(wal_colors_path, g810_theme_path):
             colors_dict[key] = value.replace("#","")
                 
         wal_g810 = "# A wal_g810 profile\n"
-        wal_g810 += "a" + " " + colors_dict["color11"] + "\n"
+        wal_g810 += "g" + " " + "logo" + " " + colors_dict["color1"] + "\n"
+        wal_g810 += "g" + " " + "indicators" + " " + colors_dict["color2"] + "\n"
+        wal_g810 += "g" + " " + "multimedia" + " " + colors_dict["color1"] + "\n"
+        wal_g810 += "g" + " " + "fkeys" + " " + colors_dict["color3"] + "\n"
+        wal_g810 += "g" + " " + "modifiers" + " " + colors_dict["color3"] + "\n"
+        wal_g810 += "g" + " " + "arrows" + " " + colors_dict["color5"] + "\n"
+        wal_g810 += "g" + " " + "numeric" + " " + colors_dict["color1"] + "\n"
+        wal_g810 += "g" + " " + "functions" + " " + colors_dict["color2"] + "\n"
+        wal_g810 += "g" + " " + "keys" + " " + colors_dict["color6"] + "\n"
+        wal_g810 += "g" + " " + "gkeys" + " " + colors_dict["color2"] + "\n"
+        wal_g810 += "k" + " " + "tilde" + " " + colors_dict["color5"] + "\n"
+        for i in range (10):
+                wal_g810 += "k" + " " + str(i) + " " + colors_dict["color11"] + "\n"
+        for char in ["W", "A", "S", "D"]:
+                wal_g810 += "k" + " " + char + " " + colors_dict["color5"] + "\n"
         wal_g810 += "c"
-
+        
         # Write theme json to g810 themes directory
         try:
                 with open(g810_theme_path, 'w') as f:
